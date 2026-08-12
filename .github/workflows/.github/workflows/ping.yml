@@ -14,4 +14,4 @@ jobs:
       - name: Ping the server
         run: |
           echo "핑 보내는 시각: $(date)"
-          curl -s https://YOUR-RENDER-URL.onrender.com/ || echo "핑 실패!"
+          curl -s https://fourword-task0.onrender.com/ || echo "핑 실패!"
